@@ -1,0 +1,40 @@
+.newsLetter{
+    width: 85%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(115, 0, 128, 0.329),white,white);
+    margin-left: 97px;
+    padding-top: 70px;
+    margin-bottom: 150px;
+}
+.newsLetter .title{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: rgb(63, 62, 62);
+}
+.email_form{
+    border:1px solid rgba(128, 128, 128, 0.356);
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    height:50px;
+    margin-top: 20px;
+}
+.email_form input{
+    font-size: 16px;
+    border: none;
+    margin-left: 25px;
+}
+.email_form .subscribe_btn{
+    border: none;
+    background-color: black;
+    color: white;
+    height:50px;
+    border-radius: 40px;
+    padding: 0px 50px;
+    font-size: 15px;
+}

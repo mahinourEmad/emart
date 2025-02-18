@@ -1,0 +1,50 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.Logo_emart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.Logo_emart h3{
+    font-weight: 500;
+    font-size: 35px;
+    padding-top: 10px;
+}
+.links_items{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    list-style: none;
+    cursor: pointer;
+}
+.platforme_icon{
+    display: flex;
+    gap: 15px;
+}
+.platforme_icon .icon{
+    border:0.5px solid rgba(220, 220, 220, 0.228);
+    background-color: rgba(220, 220, 220, 0.228);
+    border-radius: 5px;
+    padding: 4px;
+    margin-bottom: 20px;
+    width: 35px;
+    cursor: pointer;
+}
+.footerCopyRights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerCopyRights .border_line{
+    background-color:  rgb(220, 220, 220);
+    height: 2px;
+    width: 900px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
